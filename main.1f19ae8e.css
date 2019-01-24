@@ -1,0 +1,85 @@
+.sheet {
+  width: 400px;
+  height: 400px;
+  background-color: #fff7e1;
+  display: flex;
+  flex-direction: column;
+}
+.sheet .top {
+  border: 1.5px solid #bec0c2;
+}
+.sheet .top .top-title {
+  text-align: center;
+  font-size: 50px;
+}
+.sheet .top .top-main {
+  border: 1px solid #bec0c2;
+  display: flex;
+  text-align: center;
+}
+.sheet .top .top-main .top-menu {
+  border: 1px solid #bec0c2;
+  flex: 1;
+}
+.sheet .top .top-main .top-info {
+  border: 1px solid #bec0c2;
+  flex: 1;
+}
+.sheet .top .top-main .top-infoco {
+  border: 1px solid #bec0c2;
+  flex: 1;
+}
+.sheet .middle {
+  flex: 1;
+  border: 1px solid #bec0c2;
+  display: flex;
+}
+.sheet .middle .list-view {
+  display: inline-block;
+  border: 1px solid #bec0c2;
+}
+.sheet .middle .right-window {
+  overflow-y: scroll;
+  border: 1px solid #bec0c2;
+  text-align: center;
+  flex: 3;
+}
+.sheet .middle .left-window {
+  display: inline-block;
+  flex: 1;
+  border: 1px solid #bec0c2;
+  display: flex;
+  flex-direction: column;
+}
+.sheet .middle .left-window .platform {
+  border: 1px solid #bec0c2;
+  text-align: center;
+}
+.sheet .middle .left-window .platform .id-box {
+  text-align: center;
+  display: flex;
+}
+.sheet .middle .left-window .platform .id-box .id-box1 {
+  flex: 1;
+}
+.sheet .middle .left-window .platform .password-box {
+  text-align: center;
+  display: flex;
+}
+.sheet .middle .left-window .begged-item {
+  border: 1px solid #bec0c2;
+}
+.sheet .middle .left-window .view-item {
+  flex: 1;
+  border: 1px solid #bec0c2;
+  overflow-y: scroll;
+}
+.sheet .middle .left-window .view-total {
+  display: table-cell;
+  align-items: flex-end;
+  text-align: right;
+  border: 1px solid #bec0c2;
+}
+.sheet .middle .left-window .view-total .view-real {
+  text-align: right;
+}
